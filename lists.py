@@ -30,3 +30,20 @@ for item in range(2,10):
 print("Print with seep of 2")
 for item in range(2,10,2):
     print(item)
+
+print("2D list")
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:
+    for item in row:
+        print(item)
+    print()
+
+#unpacking 
+x,y,z = num[0:3]
+print(y)
