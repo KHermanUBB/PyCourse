@@ -1,5 +1,6 @@
 # comment section
 
+
 names = ["John", "Mary", "Sam", "Tom"]
 
 print(names)
